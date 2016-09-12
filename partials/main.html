@@ -1,0 +1,11 @@
+<div ng-init="getFlowers()">
+    <h1>Check out all these damn flowers! Buy some!</h1>
+    <div ng-repeat="arrangement in arrangementArray">
+        <div>
+        <h5>Title: {{arrangement.title}}</h5>
+        <h5>Description: {{arrangement.description}}</h5>
+        <h5>Category: {{arrangement.category}}</h5>
+        <h5>Price: {{arrangement.price}}</h5>
+        </div>
+    </div>
+</div>
