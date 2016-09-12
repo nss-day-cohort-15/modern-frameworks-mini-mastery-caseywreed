@@ -1,3 +1,6 @@
 flowers.json
 lib/node_modules
 lib/bower_components
+css/
+lib/.sass_cache/
+app/values/FirebaseKeys.js
